@@ -4,12 +4,12 @@ Imbalanced learning addresses the challenge posed by classification issues where
 
 ![IMB](https://amlgolabs.com/wp-content/uploads/2023/08/Copy-of-Power-BI-Card-Visual-With-Conditional-Formatting.jpg)
 
-This repository aims to provide  complete solutions for projects related to imbalanced datasets.
+This repository aims to provide complete explanations for projects related to imbalanced datasets.
 
 Here are some common imbalanced learning techniques:
 
     Resampling Techniques:
-        Under-sampling: Remove samples from the majority class to balance the class distribution. This can be done randomly or using more sophisticated techniques like Tomek links or edited nearest neighbors.
+        Under-sampling: Remove samples from the majority class to balance the class distribution. This can be done randomly or using more refined techniques like Tomek links or edited nearest neighbors.
         Over-sampling: Duplicate or generate synthetic samples for the minority class to balance the class distribution. Techniques include random over-sampling, SMOTE (Synthetic Minority Over-sampling Technique), and ADASYN (Adaptive Synthetic Sampling).
 
     Algorithmic Techniques:
