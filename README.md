@@ -18,7 +18,7 @@ Here are some common imbalanced learning techniques:
 
     Algorithmic Extensions:
         Balanced Random Forest: An extension of the Random Forest algorithm that balances the class distribution by adjusting the weights during training.
-        SMOTEBoost: Combines the SMOTE algorithm with boosting to generate synthetic samples for the minority class during each iteration of boosting.
+        SMOTEBoost: Combines the SMOTE algorithm with boosting to generate synthetic samples for the minority class during each boosting iteration.
 
     Cost-sensitive Meta-learning:
         MetaCost: A meta-learning algorithm that adjusts the misclassification costs based on the performance of the base learner.
@@ -27,8 +27,8 @@ Here are some common imbalanced learning techniques:
         One-Class SVM: This algorithm is designed for situations where one class is underrepresented. It learns a model of the majority class and identifies deviations from this model as anomalies.
 
     Evaluation Metrics:
-        When evaluating models on imbalanced datasets, standard accuracy may not be a suitable metric. Instead, use metrics like precision, recall, F1-score, area under the ROC curve (AUC-ROC), or area under the precision-recall curve (AUC-PR) that provide a more comprehensive view of the model's performance on both classes.
+        Standard accuracy may not be a suitable metric when evaluating models on imbalanced datasets. Instead, use metrics like precision, recall, F1-score, area under the ROC curve (AUC-ROC), or area under the precision-recall curve (AUC-PR) that provide a more comprehensive view of the model's performance on both classes.
 
     Data Augmentation:
         Augment the minority class by applying transformations to existing instances or generating synthetic samples. This is commonly used in image data but can be adapted for other types of data as well.
-        1)GAN
+        1)GAN: Implementing GANs for data augmentation can be complex, and there are various GAN architectures and training strategies to consider. It's recommended to refer to existing literature, tutorials, and code                implementations to guide you through the process and help address potential challenges.
