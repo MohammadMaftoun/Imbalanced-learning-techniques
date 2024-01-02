@@ -32,3 +32,4 @@ Here are some common imbalanced learning techniques:
     Data Augmentation:
         Augment the minority class by applying transformations to existing instances or generating synthetic samples. This is commonly used in image data but can be adapted for other types of data as well.
         1)GAN: Implementing GANs for data augmentation can be complex, and there are various GAN architectures and training strategies to consider. It's recommended to refer to existing literature, tutorials, and code                implementations to guide you through the process and help address potential challenges.
+        2)Domain-Specific: Depending on the specific domain or task, additional augmentation techniques may be developed. For example, in medical imaging, you might have specialized transformations to simulate                        different imaging conditions.
