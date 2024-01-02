@@ -31,3 +31,4 @@ Here are some common imbalanced learning techniques:
 
     Data Augmentation:
         Augment the minority class by applying transformations to existing instances or generating synthetic samples. This is commonly used in image data but can be adapted for other types of data as well.
+        1)GAN
