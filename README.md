@@ -30,6 +30,6 @@ Here are some common imbalanced learning techniques:
         Standard accuracy may not be a suitable metric when evaluating models on imbalanced datasets. Instead, use metrics like precision, recall, F1-score, area under the ROC curve (AUC-ROC), or area under the precision-recall curve (AUC-PR) that provide a more comprehensive view of the model's performance on both classes.
 
     Data Augmentation:
-        Augment the minority class by applying transformations to existing instances or generating synthetic samples. This is commonly used in image data but can be adapted for other types of data as well.
+        Augment the minority class by applying transformations to existing instances or generating synthetic samples. This is commonly used in image data but can be adjusted for other types of data as well.
         1)GAN: Implementing GANs for data augmentation can be complex, and there are various GAN architectures and training strategies to consider. It's recommended to refer to existing literature, tutorials, and code                implementations to guide you through the process and help address potential challenges.
         2)Domain-Specific: Depending on the specific domain or task, additional augmentation techniques may be developed. For example, in medical imaging, you might have specialized transformations to simulate                        different imaging conditions.
