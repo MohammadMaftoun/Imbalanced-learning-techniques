@@ -4,7 +4,7 @@ Imbalanced learning addresses the challenge posed by classification issues where
 
 ![IMB](https://amlgolabs.com/wp-content/uploads/2023/08/Copy-of-Power-BI-Card-Visual-With-Conditional-Formatting.jpg)
 
-This repository aims to provide complete explanations for projects related to imbalanced datasets.
+This repository seeks to supply complete explanations for projects related to imbalanced datasets.
 
 Here are some common imbalanced learning techniques:
 
