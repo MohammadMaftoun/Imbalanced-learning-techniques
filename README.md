@@ -1,6 +1,6 @@
 # Imbalanced-learning-techniques
 
-Imbalanced learning handles the challenge posed by classification problems where one class substantially outnumbers the other, resulting in imbalanced datasets. This scenario is prevalent in domains like fraud detection, medical diagnosis, and anomaly detection.
+Imbalanced learning handles the challenge posed by classification issues where one class substantially outnumbers the other, resulting in imbalanced datasets. This scenario is general in domains like fraud detection, medical diagnosis, and anomaly detection.
 
 ![IMB](https://amlgolabs.com/wp-content/uploads/2023/08/Copy-of-Power-BI-Card-Visual-With-Conditional-Formatting.jpg)
 
@@ -13,7 +13,7 @@ Here are some typical imbalanced learning techniques:
         Over-sampling: Duplicate or generate synthetic samples for the minority class to balance the class distribution. Techniques contain random over-sampling, SMOTE (Synthetic Minority Over-sampling Technique), and ADASYN (Adaptive Synthetic Sampling).
 
     Algorithmic Techniques:
-        Cost-sensitive learning: Assign different misclassification costs to additional classes. This is done by adjusting the class weights during model training. Many machine learning algorithms, such as those in scikitlearn, provide an option to set class weights.
+        Cost-sensitive learning: Assign different misclassification costs to additional classes. This is done by adjusting the class weights during model training. Many machine learning algorithms, such as those in scikit-learn, provide an option to set class weights.
         Ensemble methods: Use ensemble methods like Random Forests or Boosting, which can handle imbalanced data naturally. Adjusting the weights of individual learners or combining multiple classifiers can improve performance.
 
     Algorithmic Extensions:
