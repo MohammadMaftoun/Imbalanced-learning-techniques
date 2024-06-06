@@ -1,6 +1,6 @@
 # Imbalanced-learning-techniques
 
-Imbalanced learning handles the challenge posed by classification issues where one class substantially outnumbers the other, resulting in imbalanced datasets. This scenario is general in domains like fraud detection, medical diagnosis, and anomaly detection.
+Imbalanced learning handles the challenge posed by classification issues where one class substantially outnumbers the other, resulting in imbalanced datasets. This scenario is general in fraud detection, medical diagnosis, and anomaly detection.
 
 ![IMB](https://amlgolabs.com/wp-content/uploads/2023/08/Copy-of-Power-BI-Card-Visual-With-Conditional-Formatting.jpg)
 
