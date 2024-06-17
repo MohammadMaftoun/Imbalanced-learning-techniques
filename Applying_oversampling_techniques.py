@@ -42,7 +42,7 @@ oversamplers = {
 def evaluate_model(X_train_res, y_train_res):
     model = SVC(random_state=42)
     model.fit(X_train_res, y_train_res)
-    y_pred = model.predict(x_test)
+    y_pred = model.predict(X_test)
     return classification_report(y_test, y_pred, output_dict=True)
 
 results = {}
@@ -50,9 +50,9 @@ for name, sampler in oversamplers.items():
     try:
         print(f"Evaluating {name}...")
         if name == 'SMOTENC':
-            X_res, y_res = sampler.fit_resample(x_train, y_train)
+            X_res, y_res = sampler.fit_resample(X_train, y_train)
         else:
-            X_res, y_res = sampler.fit_resample(x_train, y_train)
+            X_res, y_res = sampler.fit_resample(X_train, y_train)
         results[name] = evaluate_model(X_res, y_res)
     except ValueError as e:
         print(f"Error with {name}: {e}")
@@ -60,8 +60,6 @@ for name, sampler in oversamplers.items():
 for name, metrics in results.items():
     print(f"\n{name}:\n")
     print(metrics)
-
-import pandas as pd
 
 results_df = pd.DataFrame(results).T
 print(results_df)
