@@ -26,8 +26,6 @@ Here are some typical imbalanced learning techniques:
     Anomaly Detection Techniques:
         One-Class SVM: This algorithm is designed for situations where one class is underrepresented. It learns a model of the majority class and identifies deviations from this model as anomalies.
 
-    Evaluation Metrics:
-        Standard accuracy may not be a suitable metric when evaluating models on imbalanced datasets. Instead, use metrics like precision, recall, F1-score, area under the ROC curve (AUC-ROC), or area under the precision-recall curve (AUC-PR) that provide a more comprehensive view of the model's performance on both classes.
 
     Data Augmentation:
         Augment the minority class by applying transformations to existing instances or generating synthetic samples. This is commonly used in image data but can be adjusted for other types of data as well.
