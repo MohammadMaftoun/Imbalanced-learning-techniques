@@ -10,10 +10,10 @@ Here are some typical imbalanced learning techniques:
 
     Resampling Techniques:
         Under-sampling: Remove samples from the majority class to balance the class distribution. This can be done randomly or using more refined techniques like Tomek links or edited nearest neighbors.
-        Over-sampling: Duplicate or generate synthetic samples for the minority class to balance the class distribution. Techniques include random over-sampling, SMOTE (Synthetic Minority Over-sampling Technique), and ADASYN (Adaptive Synthetic Sampling).
+        Oversampling: Duplicate or generate synthetic samples for the minority class to balance the class distribution. Techniques include random oversampling, SMOTE (Synthetic Minority Oversampling Technique), and ADASYN (Adaptive Synthetic Sampling).
 
     Algorithmic Techniques:
-        Cost-sensitive learning: Assign different misclassification costs to additional classes. This is done by adjusting the class weights during model training. Many machine learning algorithms, such as those in scikit-learn, provide an option to set class weights.
+        Cost-sensitive learning: Assign different misclassification costs to additional classes by adjusting the class weights during model training. Many machine learning algorithms, such as those in sci-kit, provide an option to set class weights.
         Ensemble methods: Use ensemble methods like Random Forests or Boosting, which can manage imbalanced data naturally. Adjusting the weights of individual learners or combining multiple classifiers can improve performance.
 
     Algorithmic Extensions:
